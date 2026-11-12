@@ -9,3 +9,4 @@ curl -fsSL https://raw.githubusercontent.com/goodcoddeo/aebbhosting-vpsdns/refs/
 ### ⚠️ 주의사항
 - DNS 설정 파일에 기존에 직접 지정해 둔 설정이 있다면 해당 내용은 덮어써집니다.
 - 설치 후 시스템이 자동으로 DNS 설정을 변경하며, 서버 재부팅 후에도 적용됩니다.
+- **설치가 된 상태이지만, 그래도 통신이 불가능하다면 `sudo systemctl restart networking`를 한번 입력해주세요.**
